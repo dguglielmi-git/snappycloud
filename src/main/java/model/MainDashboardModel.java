@@ -1,0 +1,28 @@
+package model;
+
+import javax.persistence.Entity;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+@Entity
+public class MainDashboardModel {
+
+	String nombre;
+	String dni;
+	
+	public String getNombre() {
+		return nombre;
+	}
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+	public String getDni() {
+		return dni;
+	}
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+	
+	
+}
